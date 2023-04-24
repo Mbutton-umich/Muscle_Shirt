@@ -6,7 +6,7 @@ A shirt that shows muscle activations as you workout with LED bar graphs showing
 
 ## Power Procedures
 
-We burnt a board by not foolowing the correct powering sequences. 
+We burnt a board by not following the correct powering sequences. 
 
 1. Plug in positive ground.
 2. Plug in positve +9V.
