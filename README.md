@@ -17,6 +17,8 @@ We burnt a board by not foolowing the correct powering sequences.
 
 **Powering down must be done in exactly the opposite order. _DO NOT. I REPEAT DO NOT_, turn off the positive power while the negative is still plugged in. The negative power will burn the board through its ground. Also do not turn off positive power while still plugged into USB. The STM32L432KC selects its power source based on the first thing it connects to. Removing main power while still plugged into USB will cause dangerous power draw through the USB and burn the board. This ordering for USB during powering is mentioned in the documentation for the board as an afterthought. _PAY CAREFUL ATTENTION TO BATTERY LIFE_ if the negative side dies it takes the board with it.**
 
+Also, the board itself is powered by stepping down +9 to +5 regulated via an LDO. But the LEDs are powered by a +5 from the buck converter that is controleld with a potentiometer. Frequently verify that the screw on the buck converter is correct and +5V is properly provided to the LEDs.
+
 
 ## Filter Testing Points
 
