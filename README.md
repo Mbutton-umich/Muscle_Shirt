@@ -76,6 +76,8 @@ screen_i2c = (purple)
 reset_button = (orange)
 
 
+Also note that the ordering that the white data lines from each muscle must enter the multiplexor must matchup with the ordering of the LED routing on the shirt. That ordering starts with A0, and must go Lat->Chest->Shoulder->Tricep->Bicept
+
 
 
 ## Additional Notes of Caution
